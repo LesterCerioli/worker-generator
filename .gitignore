@@ -1,0 +1,45 @@
+# Binaries and compiled files
+/bin/
+/out/
+/dist/
+*.exe
+*.so
+*.dll
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories
+/vendor/
+/go/pkg/
+
+# Go test output
+*.test
+*.out
+/coverage.txt
+/coverage.html
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug files
+debug
+*.debug
+
+# Build cache
+/.cache/
